@@ -29,14 +29,14 @@ We use a generative model called **Conditional Flow Matching**. This model was d
 4. **Create the conda environment:**
    Use the provided YAML file to create an environment with all required dependencies:
     ```bash
-    conda env create -f environment.yml
-    conda activate cell-perturbation
+    conda env create -f anaconda_environment.yaml
+    conda activate cell-perturbation-prediction
     ```
-5. **Running `.ipynb` notebooks in VS Code**
+5. **Running `.ipynb` notebooks in VS Code:**
     To run `.ipynb` notebooks in VS Code, install the 
     [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
     and [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter).
-6. **Running the code**
+6. **Running the code:**
 Run the "cell-state-transition-using-otcfm.ipynb" notebook 
 
 
