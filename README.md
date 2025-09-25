@@ -16,27 +16,21 @@ We use a generative model called **Conditional Flow Matching**. This model was d
     git clone https://github.com/nazhatanika/cell-perturbation-prediction.git
     cd cell-perturbation-prediction
     ```
-2. **Create and activate a virtual environment (recommended)**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate   # macOS/Linux
-    venv\Scripts\activate      # Windows
-    ```
-3. **Download the dataset**
+2. **Download the dataset**
     The processed dataset can be downloaded 
     [here](https://www.research-collection.ethz.ch/handle/20.500.11850/609681). 
     Once downloaded place the "scrna-lupuspatients" directory in the cloned repository. 
-4. **Create the conda environment:**
+3. **Create the conda environment:**
    Use the provided YAML file to create an environment with all required dependencies:
     ```bash
     conda env create -f anaconda_environment.yaml
     conda activate cell-perturbation-prediction
     ```
-5. **Running `.ipynb` notebooks in VS Code:**
+4. **Running `.ipynb` notebooks in VS Code:**
     To run `.ipynb` notebooks in VS Code, install the 
     [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
     and [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter).
-6. **Running the code:**
+5. **Running the code:**
 Run the "cell-state-transition-using-otcfm.ipynb" notebook 
 
 
